@@ -167,6 +167,7 @@ h1 {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+    font-size: 18px; /* aumentamos tamaño de texto */
   }
 
   #messages p.self {
@@ -175,5 +176,15 @@ h1 {
 
   #messages p.other {
     margin-right: 10%;
+  }
+
+  #messageInput {
+    font-size: 18px; /* campo texto más grande */
+    padding: 16px;
+  }
+
+  #sendBtn {
+    padding: 14px 18px; /* botón más grande */
+    font-size: 16px;
   }
 }
