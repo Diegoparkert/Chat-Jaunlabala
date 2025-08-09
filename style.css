@@ -163,28 +163,31 @@ h1 {
 
 /* RESPONSIVE: Móviles muy pequeños */
 @media (max-width: 400px) {
+  body {
+    font-size: 18px; /* Aumenta todo el texto base */
+  }
+  #messages {
+    padding: 16px;
+    min-height: 350px;
+  }
   #messages p {
+    font-size: 20px; /* Más grande para leer fácil */
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
-    font-size: 18px; /* aumentamos tamaño de texto */
   }
-
   #messages p.self {
-    margin-left: 10%;
+    margin-left: 5%;
   }
-
   #messages p.other {
-    margin-right: 10%;
+    margin-right: 5%;
   }
-
   #messageInput {
-    font-size: 18px; /* campo texto más grande */
-    padding: 16px;
+    font-size: 20px;
+    padding: 18px;
   }
-
   #sendBtn {
-    padding: 14px 18px; /* botón más grande */
-    font-size: 16px;
+    padding: 16px 20px;
+    font-size: 18px;
   }
 }
