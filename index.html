@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Chat con mi primo</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Firebase v8 -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+</head>
+<body>
+  <h1>Spidermans truchas🕸️🕷️</h1>
+
+  <!-- Muestra el nombre local -->
+  <div id="userLabel" class="user-label">Tu: -</div>
+
+  <div id="messages"></div>
+  
+  <div id="input-wrap" class="input-wrap">
+    <input type="text" id="messageInput" placeholder="Escribe un mensaje..." autocomplete="off">
+    <button id="sendBtn">Enviar</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
