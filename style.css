@@ -129,49 +129,33 @@ h1 {
 }
 
 /* RESPONSIVE: Tablets y móviles */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 20px;
-    margin: 12px;
-  }
-
-  #messages {
-    width: 98%;
-    min-height: 250px;
-    margin-bottom: 6px;
-  }
-
+@media (min-width: 401px) and (max-width: 768px) {
   #messages p {
-    font-size: 14px;
+    font-size: 16px;
     max-width: 90%;
     margin: 6px 0;
   }
-
   #messageInput {
-    font-size: 14px;
+    font-size: 16px;
+    padding: 14px;
   }
-
-  .input-wrap {
-    width: 98%;
-    padding: 8px;
-  }
-
   #sendBtn {
-    padding: 10px 12px;
+    padding: 14px 18px;
+    font-size: 16px;
   }
 }
 
 /* RESPONSIVE: Móviles muy pequeños */
 @media (max-width: 400px) {
   body {
-    font-size: 18px; /* Aumenta todo el texto base */
+    font-size: 18px; /* base de texto más grande */
   }
   #messages {
     padding: 16px;
     min-height: 350px;
   }
   #messages p {
-    font-size: 20px; /* Más grande para leer fácil */
+    font-size: 20px;
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -183,11 +167,11 @@ h1 {
     margin-right: 5%;
   }
   #messageInput {
-    font-size: 20px;
-    padding: 18px;
+    font-size: 18px;
+    padding: 14px 16px;
   }
   #sendBtn {
-    padding: 16px 20px;
+    padding: 16px 22px;
     font-size: 18px;
   }
 }
